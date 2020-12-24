@@ -1,0 +1,147 @@
+.signin {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../home-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.5);
+}
+/* .sign {
+  min-height: 100vh;
+} */
+
+.logo {
+  height: 40px;
+  margin: 3rem 3rem;
+}
+
+.signin-form {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px 10px 100px 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+  border-radius: 5px;
+}
+.signin-content > h1 {
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+.error-text {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+  background-color: rgb(221, 134, 19);
+  border-radius: 5px;
+  padding: 10px;
+}
+.signin-content {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.signin-content > h1 {
+  color: white;
+}
+
+.signin-email,
+.signin-password,
+.signin-username {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.signin-email-input,
+.signin-password-input,
+.signin-username-input {
+  max-width: 300px;
+  width: 100%;
+  height: 40px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 5px;
+  background-color: rgb(76, 71, 71);
+  color: white;
+}
+.signin-email-input::placeholder,
+.signin-password-input::placeholder,
+.signin-username-input::placeholder {
+  color: gray;
+}
+
+.signin-error {
+  color: rgb(221, 134, 19);
+  text-align: left;
+  font-size: 0.8rem;
+}
+.alert {
+  border-bottom: 3px solid rgb(221, 134, 19);
+}
+
+.signin-button {
+  width: 100%;
+  max-width: 300px;
+  height: 40px;
+  cursor: pointer;
+  background-color: rgba(238, 70, 9, 1);
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  transition: all 0.4s ease-in-out;
+}
+.signin-button:hover {
+  background-color: rgba(238, 70, 9, 0.8);
+}
+
+.checkin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.signin-content > h4 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.signin-content > h4 > a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.signin-content > p {
+  font-size: 0.8rem;
+}
+.learn {
+  color: rgb(9, 98, 214);
+  font-weight: bolder;
+}
+.footer {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 400px) {
+  .signin-form {
+    max-width: 300px;
+  }
+  .signin-content {
+    padding: 20px 20px;
+  }
+}

@@ -1,0 +1,50 @@
+.profiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  max-width: 80%;
+}
+
+.netflix-profile-logo {
+  height: 40px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.profile-title {
+  width: 100%;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 0.25rem;
+  margin-top: 2rem;
+}
+
+.profile-name {
+  color: #808080;
+  text-overflow: ellipsis;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  margin-top: 10px;
+}
+
+.profile-name:hover {
+  font-weight: bolder;
+  color: #e5e5e5;
+  cursor: pointer;
+}
+
+.picture {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border: 3px solid black;
+  cursor: pointer;
+}
+
+.picture:hover {
+  border: 3px solid white;
+}

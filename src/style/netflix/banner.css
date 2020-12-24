@@ -1,0 +1,118 @@
+.banner {
+  color: white;
+  object-fit: contain;
+  height: 600px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.banner-content {
+  padding-top: 100px;
+  height: 500px;
+  z-index: 345;
+}
+
+.banner-title {
+  font-size: 3rem;
+  font-weight: bolder;
+  padding-bottom: 0.3rem;
+}
+
+.banner-description {
+  width: 50rem;
+  line-height: 1.5;
+  padding-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  letter-spacing: 0.05rem;
+  word-spacing: 0.1rem;
+  max-width: 500px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.banner-btns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.banner-btn {
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 300;
+  padding: 0.5rem 1.5rem;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.banner-btn:hover {
+  transition: all 0.2;
+}
+
+.banner-fade {
+  height: 10rem;
+  width: 100vw;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+  z-index: 3;
+  margin-left: -30px;
+  margin-bottom: -10px;
+}
+
+.movie-rating {
+  display: flex;
+}
+
+.rating {
+  color: rgb(12, 182, 12);
+}
+
+.year {
+  margin-left: 30px;
+}
+
+.play {
+  background-color: white;
+  color: black;
+  transition: all 0.4s linear;
+}
+
+.play:hover {
+  color: white;
+  background-color: gray;
+}
+
+.add {
+  background-color: gray;
+  color: white;
+}
+.add:hover {
+  color: #111;
+  background-color: white;
+}
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 450px) {
+  .banner-description {
+    display: none;
+  }
+}
